@@ -1,0 +1,18 @@
+﻿@model List<string>
+@{
+    if (Model != null)
+    {
+        foreach ( var item in Model)
+        {
+            <p>@item</p>
+        }
+    }
+    else
+    {
+        <div>
+            <h4 style="text-align:center;">
+                There are no items in this List.
+            </h4>
+        </div>
+    }
+}
