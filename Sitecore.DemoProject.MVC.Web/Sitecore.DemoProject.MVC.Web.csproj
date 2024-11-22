@@ -557,6 +557,7 @@
     <Content Include="Views\Layout\SampleMvcLayout.cshtml" />
     <Content Include="Views\TrainingComponent\SampleViewRendering.cshtml" />
     <Content Include="Views\Sample\List.cshtml" />
+    <Content Include="Views\Cards\Card.cshtml" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

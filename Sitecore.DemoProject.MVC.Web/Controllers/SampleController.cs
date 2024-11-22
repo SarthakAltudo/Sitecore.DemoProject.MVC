@@ -11,10 +11,10 @@ namespace Sitecore.DemoProject.MVC.Web.Controllers
         public ActionResult List()
         {
             List<string> model = new List<string>();
-            model.Add("Sarthak");
-            model.Add("Sushant");
-            model.Add("Abhishek");
-            model.Add("Yash");
+            //model.Add("Sarthak");
+            //model.Add("Sushant");
+            //model.Add("Abhishek");
+            //model.Add("Yash");
             model.Add("Abhuday");
             return View(model); //return model details to the view
         }

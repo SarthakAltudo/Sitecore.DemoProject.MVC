@@ -1,4 +1,5 @@
-﻿@using Sitecore.Mvc
+﻿@using Sitecore.Mvc;
+
 @*@using Sitecore.Mvc.Analytics.Extensions*@
 
 <!DOCTYPE html>
@@ -7,27 +8,15 @@
     @*@Html.Sitecore().VisitorIdentification()*@
 </head>
 <body>
-    @Html.Sitecore().Placeholder("Header")
+    @*@Html.Sitecore().Placeholder("Header")
     @Html.Sitecore().Placeholder("Main")
-    @Html.Sitecore().Placeholder("Footer")
+    @Html.Sitecore().Placeholder("Footer")*@
     @*<h1>@Html.Sitecore().Field("title")</h1>*@
 
     <div class="card-list">
-        <div class="card">
-            <img src="~/Content/Images/Our Partners.jpg" alt="Our Partners">
-            <h2>Our Partners</h2>
-            <p>We have partnered with top companies to ensure best technology solutions for our clients, leveraging long-standing relationships with renowned names for effective enablement.</p>
-        </div>
-        <div class="card">
-            <img src="~/Content/Images/Career.jpg" alt="Careers">
-            <h2>Careers</h2>
-            <p>We brainstorm, collaborate, laugh, and celebrate each other's progress globally. We support our team both morally and financially, ensuring they gain hands-on experience from their learning.</p>
-        </div>
-        <div class="card">
-            <img src="~/Content/Images/Leadership_02.jpg" alt="Our Leaders">
-            <h2>Our Leaders</h2>
-            <p>The sun never sets on Altudo – we have a global team of experienced leaders from multiple industries who want the best for our people and our clients.</p>
-        </div>
+
+        @Html.Sitecore().Placeholder("cards")
+
     </div>
     <style>
         .card-list {

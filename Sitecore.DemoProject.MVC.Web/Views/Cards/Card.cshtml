@@ -1,0 +1,10 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc.Helpers
+
+
+<div class="card">
+    @Html.Sitecore().Field("BgPic")
+    <h2>@Html.Sitecore().Field("CardHeading")</h2>
+    <p>@Html.Sitecore().Field("CardInfo")</p>
+</div>
